@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Memory Visualizer
+GenericName=System Memory Monitor
+Comment=Analyze heavy memory-consuming software with stylish Cairo circular gauges and terminate RAM hogs.
+Exec=ram-visualizer
+Icon=ram-visualizer
+Terminal=false
+Categories=System;Monitor;GTK;Utility;
+Keywords=system;ram;memory;monitor;visualizer;kill;process;
+StartupNotify=true
+StartupWMClass=ram-visualizer
