@@ -1,6 +1,4 @@
-<div align="center">
-
-<a href="https://github.com/effjy/ram/"><img src="titles/ram-visualizer-title.svg" height="52" alt="RAM Visualizer"></a>
+# RAM Visualizer
 
 A modern, high-performance **GTK3 + Cairo** RAM usage analyzer written in C. It lists your top memory-consuming processes, renders live memory stats with custom Cairo ring gauges and bar charts, and lets you safely terminate runaway RAM hogs — with verified kills, not fire-and-forget signals.
 
@@ -9,8 +7,6 @@ A modern, high-performance **GTK3 + Cairo** RAM usage analyzer written in C. It 
 ![Platform: Linux](https://img.shields.io/badge/platform-Linux-lightgrey.svg)
 ![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)
 ![Build: Makefile](https://img.shields.io/badge/build-make-orange.svg)
-
-</div>
 
 ## Screenshot
 
@@ -71,7 +67,7 @@ To install system-wide (binary, icon, and desktop launcher):
 sudo make install
 ```
 
-After installation, search for **"Memory Visualizer"** in your application menu, or run `ram-visualizer` from a terminal.
+After installation, search for **"RAM Visualizer"** in your application menu, or run `ram-visualizer` from a terminal.
 
 To remove it:
 

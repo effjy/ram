@@ -1,4 +1,4 @@
-# Makefile for building and deploying the GTK3 Memory Visualizer on Ubuntu Mate.
+# Makefile for building and deploying the GTK3 RAM Visualizer on Ubuntu Mate.
 # Usage:
 #   make              - Compile the C binary
 #   sudo make install - Install globally to application menus
@@ -46,8 +46,8 @@ install: $(TARGET)
 	gtk-update-icon-cache -f -t $(PREFIX)/share/icons/hicolor || true
 	update-desktop-database $(PREFIX)/share/applications || true
 	@echo "============================================="
-	@echo " Memory Visualizer installed successfully!"
-	@echo " Search for 'Memory Visualizer' in the Mate menus."
+	@echo " RAM Visualizer installed successfully!"
+	@echo " Search for 'RAM Visualizer' in the Mate menus."
 	@echo "============================================="
 
 uninstall:
@@ -64,7 +64,7 @@ uninstall:
 	gtk-update-icon-cache -f -t $(PREFIX)/share/icons/hicolor || true
 	update-desktop-database $(PREFIX)/share/applications || true
 	@echo "============================================="
-	@echo " Memory Visualizer completely uninstalled."
+	@echo " RAM Visualizer completely uninstalled."
 	@echo "============================================="
 
 .PHONY: all clean install uninstall
